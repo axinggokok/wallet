@@ -4,10 +4,11 @@
 #import "SRWebSocket.h"
 
 
-extern NSString * const kNeedPayOrderNote;
-extern NSString * const kWebSocketDidOpenNote;
-extern NSString * const kWebSocketDidCloseNote;
-extern NSString * const kWebSocketdidReceiveMessageNote;
+
+#define kNeedPayOrderNote       @"kNeedPayOrderNote"
+#define kWebSocketDidOpenNote   @"kWebSocketDidOpenNote"
+#define kWebSocketDidCloseNote  @"kWebSocketDidCloseNote"
+#define kWebSocketdidReceiveMessageNote @"kWebSocketdidReceiveMessageNote"
 
 @interface SocketRocketUtility : NSObject
 

@@ -10,10 +10,6 @@ block();\
 dispatch_async(dispatch_get_main_queue(), block);\
 }
 
-NSString * const kNeedPayOrderNote               = @"kNeedPayOrderNote";
-NSString * const kWebSocketDidOpenNote           = @"kWebSocketDidOpenNote";
-NSString * const kWebSocketDidCloseNote          = @"kWebSocketDidCloseNote";
-NSString * const kWebSocketdidReceiveMessageNote = @"kWebSocketdidReceiveMessageNote";
 
 @interface SocketRocketUtility()<SRWebSocketDelegate>
 {
