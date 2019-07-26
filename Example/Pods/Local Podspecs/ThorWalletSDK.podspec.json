@@ -33,37 +33,18 @@
   "subspecs": [
     {
       "name": "DApp",
-      "source_files": "ThorWalletSDK/Classes/DApp/**/*.{h,m}",
-      "dependencies": {
-        "ThorWalletSDK/Common": [
-
-        ]
-      }
-    },
-    {
-      "name": "Common",
-      "source_files": "ThorWalletSDK/Classes/Common/*.{h,m,c}"
+      "source_files": "ThorWalletSDK/Classes/DApp/**/*.{h,m}"
     },
     {
       "name": "BasicWallet",
       "source_files": [
         "ThorWalletSDK/Classes/BasicWallet/*.{h,m}",
         "ThorWalletSDK/Classes/BasicWallet/**/*.{h,m}"
-      ],
-      "dependencies": {
-        "ThorWalletSDK/Common": [
-
-        ]
-      }
+      ]
     },
     {
       "name": "Tool",
-      "source_files": "ThorWalletSDK/Classes/Tool/**/*.{h,m,c,table}",
-      "dependencies": {
-        "ThorWalletSDK/Common": [
-
-        ]
-      }
+      "source_files": "ThorWalletSDK/Classes/Tool/**/*.{h,m,c,table}"
     }
   ]
 }
