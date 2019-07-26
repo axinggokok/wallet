@@ -40,7 +40,8 @@
       "source_files": [
         "ThorWalletSDK/Classes/BasicWallet/*.{h,m}",
         "ThorWalletSDK/Classes/BasicWallet/**/*.{h,m}"
-      ]
+      ],
+      "public_header_files": "ThorWalletSDK/Classes/BasicWallet/WalletHeader.h"
     },
     {
       "name": "Tool",
