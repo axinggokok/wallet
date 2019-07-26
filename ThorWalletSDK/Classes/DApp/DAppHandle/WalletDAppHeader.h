@@ -43,7 +43,7 @@
 #import "WalletDAppHandle+web3JS.h"
 #import "WalletDAppHandle+connexJS.h"
 #import "WalletJSCallbackModel.h"
-#import "SocketRocketUtility.h"
+//#import "SocketRocketUtility.h"
 #import "WalletCheckVersionApi.h"
 #import "WalletVersionModel.h"
 #import "WalletDappSimulateMultiAccountApi.h"

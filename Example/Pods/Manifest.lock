@@ -19,21 +19,6 @@ PODS:
   - ThorWalletSDK (1.0.0):
     - AFNetworking (~> 3.0)
     - SocketRocket (~> 0.4.2)
-    - ThorWalletSDK/BasicWallet (= 1.0.0)
-    - ThorWalletSDK/DApp (= 1.0.0)
-    - ThorWalletSDK/Tool (= 1.0.0)
-    - YYModel (~> 1.0.4)
-  - ThorWalletSDK/BasicWallet (1.0.0):
-    - AFNetworking (~> 3.0)
-    - SocketRocket (~> 0.4.2)
-    - YYModel (~> 1.0.4)
-  - ThorWalletSDK/DApp (1.0.0):
-    - AFNetworking (~> 3.0)
-    - SocketRocket (~> 0.4.2)
-    - YYModel (~> 1.0.4)
-  - ThorWalletSDK/Tool (1.0.0):
-    - AFNetworking (~> 3.0)
-    - SocketRocket (~> 0.4.2)
     - YYModel (~> 1.0.4)
   - YYModel (1.0.4)
 
@@ -56,7 +41,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
-  ThorWalletSDK: 3448430f973c393fffa68a886b72eeebba615856
+  ThorWalletSDK: 2fa87a9210e32856c304e7448aafa304fe3b2c18
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: 07f8d497d33c2602f6c7ef3a0e6da9530fa0537d
