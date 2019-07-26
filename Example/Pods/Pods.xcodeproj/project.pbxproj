@@ -148,6 +148,7 @@
 		94792302A702E30BE1561F745910009B /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = E2EA72B97B4029B4C1916228F7DE2D34 /* hmac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95A8DAF23856F67461F4AD3E89BA3B25 /* options.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FDECD7F4C03B0754F04F3F61881230 /* options.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96EB8ECEF89CF095DFBB2114C66A0BEC /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD56749D6C2D104FCF711087AE9C49D /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		972991E022EB4B950032BBF6 /* WalletHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 972991DF22EB4B950032BBF6 /* WalletHeader.h */; };
 		98041D2110DB013251E6D1662D6B21D5 /* WalletTransantionsReceiptApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E9E92B8510957CCFF1EF0903A846D0 /* WalletTransantionsReceiptApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98042CF3A32239E6540ED64AC3AF8F26 /* WalletGetStorageApi.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B4992B5E534B91572F7EC81C979F9F /* WalletGetStorageApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98CFE7DDEA01A4B1657587701011D3EF /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D5CB9279659AD1CE158B56FBA59A40 /* SRWebSocket.m */; };
@@ -327,12 +328,12 @@
 		07AAF7145B5B5BE29CDB2582373FC51C /* SocketRocketUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SocketRocketUtility.h; sourceTree = "<group>"; };
 		09C4AD36E33653949422A02550F33E8E /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		0AC8FA5893BFFB55041F5946352776F0 /* WalletDAppHandle+connexJS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WalletDAppHandle+connexJS.h"; sourceTree = "<group>"; };
-		0B2212D0D0B77D3A8ADC6A502F2CF854 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0B2212D0D0B77D3A8ADC6A502F2CF854 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0B4CE07FEF0B1D5F25ADEDB6CF9D7483 /* WalletModelFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletModelFetcher.m; sourceTree = "<group>"; };
-		0B95F8A72F5E4D9F84D72EA52C868AB0 /* aes_modes.c */ = {isa = PBXFileReference; includeInIndex = 1; path = aes_modes.c; sourceTree = "<group>"; };
+		0B95F8A72F5E4D9F84D72EA52C868AB0 /* aes_modes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = aes_modes.c; sourceTree = "<group>"; };
 		0DB9050DF26FC9113E3C654BB01AD920 /* ThorWalletSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ThorWalletSDK-Info.plist"; sourceTree = "<group>"; };
 		10458C66756571E3C54CC73AE126DA23 /* Signature.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Signature.m; path = ThorWalletSDK/Classes/BasicWallet/Signature.m; sourceTree = "<group>"; };
-		10F5B21D37499650FF8F026422C3237B /* bip39.c */ = {isa = PBXFileReference; includeInIndex = 1; path = bip39.c; sourceTree = "<group>"; };
+		10F5B21D37499650FF8F026422C3237B /* bip39.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = bip39.c; sourceTree = "<group>"; };
 		1181C86E77C8DA03404E123A4A7AD0ED /* WalletDAppHandle+web3JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WalletDAppHandle+web3JS.h"; sourceTree = "<group>"; };
 		11CFEC54D39B774AEB708AED330DBD35 /* WalletDAppHandle+transfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WalletDAppHandle+transfer.h"; sourceTree = "<group>"; };
 		12E9E92B8510957CCFF1EF0903A846D0 /* WalletTransantionsReceiptApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletTransantionsReceiptApi.h; sourceTree = "<group>"; };
@@ -353,25 +354,25 @@
 		1F277FC472B722D2D285B3A95102FF08 /* SocketRocketUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SocketRocketUtility.m; sourceTree = "<group>"; };
 		20F080B374405C633E9492188D6EEB1F /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		231755B26BD67FB0C091B87208CAAE68 /* WalletBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletBaseModel.h; sourceTree = "<group>"; };
-		248FEF020EB0BFCF2599AA616340D553 /* Pods_ThorWalletSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThorWalletSDK_Example.framework; path = "Pods-ThorWalletSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		248FEF020EB0BFCF2599AA616340D553 /* Pods_ThorWalletSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThorWalletSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BFF40E220D4EAE6C10B8811F4C88E5 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		24F8E02A37FA21D392F79742E2E261DF /* WalletDappLogEventApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletDappLogEventApi.m; sourceTree = "<group>"; };
-		25A1FE2C6886E00D5B7F169477E32224 /* ecdsa.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ecdsa.c; sourceTree = "<group>"; };
-		265A590EED2111B89097A314E203F67D /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; path = aescrypt.c; sourceTree = "<group>"; };
-		26A331A6CACC420F01F485C5CA0A758C /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A1FE2C6886E00D5B7F169477E32224 /* ecdsa.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = ecdsa.c; sourceTree = "<group>"; };
+		265A590EED2111B89097A314E203F67D /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		26A331A6CACC420F01F485C5CA0A758C /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C62D588C0BB11D8F2EF468F9A59AA6 /* WalletUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WalletUtils.m; path = ThorWalletSDK/Classes/BasicWallet/WalletUtils.m; sourceTree = "<group>"; };
 		26F9B8CE67750EFDB872B0BCB121B686 /* WalletUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WalletUtils.h; path = ThorWalletSDK/Classes/BasicWallet/WalletUtils.h; sourceTree = "<group>"; };
 		27A7DFE41DAF48D9AEDA2B87A224ED0D /* BigNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BigNumber.h; path = ThorWalletSDK/Classes/BasicWallet/BigNumber.h; sourceTree = "<group>"; };
 		28212896DDC57FDAC3DA1B32E617386F /* WalletAccountCodeApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletAccountCodeApi.h; sourceTree = "<group>"; };
 		290F80612462BBEDA7C60909E75E8F61 /* WalletDappSimulateAccountApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletDappSimulateAccountApi.h; sourceTree = "<group>"; };
 		2A0FE98507B7551AB82F16E12178D2E9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		2A602397713B3DB6CE0B2417CD2F2C3E /* blake2s-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "blake2s-ref.c"; sourceTree = "<group>"; };
+		2A602397713B3DB6CE0B2417CD2F2C3E /* blake2s-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = "blake2s-ref.c"; sourceTree = "<group>"; };
 		2BA3A1342010E5EF30EC78F644ADEE9C /* base58.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = base58.h; sourceTree = "<group>"; };
 		2BCE6CD82AA69583BDB8F0B84462418B /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		2C87753E3DB28B2AB6A283C399225B1B /* WalletUserDefaultManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletUserDefaultManager.m; sourceTree = "<group>"; };
 		2D3C40C9CC7CCEA8C092D1DF49274DFC /* WalletTransactionParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletTransactionParameter.h; sourceTree = "<group>"; };
 		2EC396E00A2ED54EB4B1BA625E8DC2A8 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		2F42506CBA8CB54D9F4560B12470F1EE /* sha3.c */ = {isa = PBXFileReference; includeInIndex = 1; path = sha3.c; sourceTree = "<group>"; };
+		2F42506CBA8CB54D9F4560B12470F1EE /* sha3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = sha3.c; sourceTree = "<group>"; };
 		31D927861722DEF8C63A3154E051B530 /* WalletDAppTransferDetailApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletDAppTransferDetailApi.m; sourceTree = "<group>"; };
 		32BDBDEC4B3FD2A434C863237A2237A6 /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
 		32EB9B4831A8BBF91976B94FE269A8CD /* Utilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
@@ -383,7 +384,7 @@
 		3C65E88A60A3A1F65EC3D4B433BA2A3C /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
 		3CEE1765BA40E2D4BC690B3AF1B7F29F /* WalletHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletHeader.h; sourceTree = "<group>"; };
 		3D2F7A15025F7257BA4747BC26A31B21 /* Pods-ThorWalletSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThorWalletSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		3DD692A052F6618508DF23E23BD649E3 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD692A052F6618508DF23E23BD649E3 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC3CB3A9ADE0D29204027AC7118F848 /* SocketRocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocketRocket-Info.plist"; sourceTree = "<group>"; };
 		3F6A2677FA1CBD3993D9B05CA6C0A995 /* WalletGenesisBlockInfoApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletGenesisBlockInfoApi.m; sourceTree = "<group>"; };
 		403A36E1D1749C69D6F302506E718E7C /* ThorWalletSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThorWalletSDK.xcconfig; sourceTree = "<group>"; };
@@ -395,7 +396,7 @@
 		4246E96F73D98D4FFB180C7910EEEA19 /* Hash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Hash.m; path = ThorWalletSDK/Classes/BasicWallet/Hash.m; sourceTree = "<group>"; };
 		433DFEBE80CC0D0D93F09627C77AB55D /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		434278CFD35793CC8B49BCF746698F2A /* Pods-ThorWalletSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThorWalletSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		439B89114C652D41DCE3606E6CA95F37 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		439B89114C652D41DCE3606E6CA95F37 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B64E15B31B49BC07C08A2A7E221005 /* WalletDappLogEventApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletDappLogEventApi.h; sourceTree = "<group>"; };
 		45965908AD1849F6A656AC2228F1D19F /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
 		4601D1D7DE6F2651AB05984DBD0671B7 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
@@ -405,13 +406,13 @@
 		4A1C9366F36F244286A7DB41A5D25ADB /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
 		4A8D543535FB15AB3B871D762EFFA381 /* WalletBalanceModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletBalanceModel.m; sourceTree = "<group>"; };
 		4A94489B76C6E97A68C6A2B33FEF3C56 /* Pods-ThorWalletSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThorWalletSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		4BC1D58AE90F6667140BF498D62FCC5B /* ripemd160.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ripemd160.c; sourceTree = "<group>"; };
+		4BC1D58AE90F6667140BF498D62FCC5B /* ripemd160.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
 		4BF7EB0F5D3DACC9A994BC75878A3D7A /* sysendian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sysendian.h; sourceTree = "<group>"; };
 		4C16D340A502F544ED90C032E35D1810 /* Account.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Account.m; path = ThorWalletSDK/Classes/BasicWallet/Account.m; sourceTree = "<group>"; };
 		4C47F798F710E1F0D8B701285329EAEE /* BigNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BigNumber.m; path = ThorWalletSDK/Classes/BasicWallet/BigNumber.m; sourceTree = "<group>"; };
-		4D01882A48E4791EF897AE41902FCE35 /* secp256k1.table */ = {isa = PBXFileReference; includeInIndex = 1; path = secp256k1.table; sourceTree = "<group>"; };
+		4D01882A48E4791EF897AE41902FCE35 /* secp256k1.table */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = secp256k1.table; sourceTree = "<group>"; };
 		4DC1AA34C89ABD7837E8E3AAB22E2AFF /* WalletAccountCodeApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletAccountCodeApi.m; sourceTree = "<group>"; };
-		4E1AD0A77EA2905D314C491C2B31DCF7 /* base58.c */ = {isa = PBXFileReference; includeInIndex = 1; path = base58.c; sourceTree = "<group>"; };
+		4E1AD0A77EA2905D314C491C2B31DCF7 /* base58.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
 		4E9C6B6A806AABB4508FF6B1BF0E715A /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		521096D8620D8CE038ABD156D03ACEA0 /* Pods-ThorWalletSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThorWalletSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		53DE40C6289A47E84B0B0C7FE15D3FD1 /* scrypt_sha256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scrypt_sha256.h; sourceTree = "<group>"; };
@@ -422,7 +423,7 @@
 		56DB39E8B99B9BC82581B3E91A9E7090 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		5740AE1703BE2C1F782B2B74C44EC4BB /* tommath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tommath.h; sourceTree = "<group>"; };
 		581B343729B431EC20575F8EFFC998CF /* WalletCheckVersionApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletCheckVersionApi.h; sourceTree = "<group>"; };
-		586916DB1E0F637342B9D3353B2FD387 /* pbkdf2.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pbkdf2.c; sourceTree = "<group>"; };
+		586916DB1E0F637342B9D3353B2FD387 /* pbkdf2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pbkdf2.c; sourceTree = "<group>"; };
 		59437142C7D716269FA43B9DB052436C /* WalletVersionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletVersionModel.h; sourceTree = "<group>"; };
 		5964DE1D1AE762840130043CA87DBC9B /* Signature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Signature.h; path = ThorWalletSDK/Classes/BasicWallet/Signature.h; sourceTree = "<group>"; };
 		5CEF9FA52DCB86240A5AB03D0CE9B7BB /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
@@ -434,14 +435,14 @@
 		662F3521E6DD14801BB6B79716B5877A /* WalletJSCallbackModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletJSCallbackModel.m; sourceTree = "<group>"; };
 		66A3349F5E2A79F4230957F2B731DD73 /* ripemd160.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
 		66B1A1264ABDA2B65C13FEE59982FD62 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		689B3CB9962052A84CADCD00C7B55EB4 /* rand.c */ = {isa = PBXFileReference; includeInIndex = 1; path = rand.c; sourceTree = "<group>"; };
+		689B3CB9962052A84CADCD00C7B55EB4 /* rand.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = rand.c; sourceTree = "<group>"; };
 		68D5CB9279659AD1CE158B56FBA59A40 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
 		69B9CA95346C831731FF2FA235AD2AE6 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		6BB5BDF30556DE6DDD7790B000974961 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		6BC44D6C4A66979A5E2A4BDDD72477CA /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA9D643ABDF80E064A0228F192C371E /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		6D70F1A6E144685D1345738B56C4DCBD /* ccMemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ccMemory.h; sourceTree = "<group>"; };
-		6E2778777213AA1C1610CBE62815ED44 /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2778777213AA1C1610CBE62815ED44 /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7186F85492F9433D278CF8E627326E6B /* secp256k1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
 		73D13CEE2EEF3779C9D9AB2257B1BC37 /* WalletDAppHandle+connexJS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WalletDAppHandle+connexJS.m"; sourceTree = "<group>"; };
 		73E555304BC0CC4622061B6BE9CEB67F /* WalletBestBlockInfoApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletBestBlockInfoApi.m; sourceTree = "<group>"; };
@@ -457,9 +458,9 @@
 		7C647C83CFD225D8D78E849548D38208 /* WalletManageModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletManageModel.h; sourceTree = "<group>"; };
 		7D42116934F6655AE4D02C0C36C2F1C5 /* WalletDappLogTransferApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletDappLogTransferApi.m; sourceTree = "<group>"; };
 		7DD56749D6C2D104FCF711087AE9C49D /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		7EF77727F688EFAA4B01FDD9E9C27291 /* blake2xb-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "blake2xb-ref.c"; sourceTree = "<group>"; };
+		7EF77727F688EFAA4B01FDD9E9C27291 /* blake2xb-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = "blake2xb-ref.c"; sourceTree = "<group>"; };
 		813C3DFD10BEF6FCA9DC2A0F19085CA0 /* Pods-ThorWalletSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThorWalletSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		813DD1E1D456E6A99BD687D890777929 /* scrypt_sha256.c */ = {isa = PBXFileReference; includeInIndex = 1; path = scrypt_sha256.c; sourceTree = "<group>"; };
+		813DD1E1D456E6A99BD687D890777929 /* scrypt_sha256.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = scrypt_sha256.c; sourceTree = "<group>"; };
 		819A205B1F454F174DDEB9C629E52952 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		83016C6B3A3898E4B93FEFD3946BC7B3 /* bip39_english.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bip39_english.h; sourceTree = "<group>"; };
 		831CFA43175A761A4D13654C075B984A /* Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
@@ -467,13 +468,13 @@
 		850D3E5D07793BC0454C22BF11507A63 /* bignum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bignum.h; sourceTree = "<group>"; };
 		8539886A3630E89710582712044CC0AB /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
 		871EEF5108E9AFF3CD1D8D5AA42E02F3 /* NSJSONSerialization+NilDataParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+NilDataParameter.m"; sourceTree = "<group>"; };
-		87FF7F019908FE9FB37D94ED5E74CD38 /* secp256k1.c */ = {isa = PBXFileReference; includeInIndex = 1; path = secp256k1.c; sourceTree = "<group>"; };
-		880AEAC4EB30D4A9BA06242E13FDC654 /* bip32.c */ = {isa = PBXFileReference; includeInIndex = 1; path = bip32.c; sourceTree = "<group>"; };
-		88699ED64A0123E2D11214993B36B086 /* Pods_ThorWalletSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThorWalletSDK_Tests.framework; path = "Pods-ThorWalletSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FF7F019908FE9FB37D94ED5E74CD38 /* secp256k1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = secp256k1.c; sourceTree = "<group>"; };
+		880AEAC4EB30D4A9BA06242E13FDC654 /* bip32.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = bip32.c; sourceTree = "<group>"; };
+		88699ED64A0123E2D11214993B36B086 /* Pods_ThorWalletSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThorWalletSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AE9C833656501686B51E7D769AD3F9 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
 		8A98E650E994AC850A4AF00840D9B607 /* WalletDAppPeerModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletDAppPeerModel.h; sourceTree = "<group>"; };
 		8B99EC038CA2A2A1A79B4EABD9337FDF /* WalletDAppPeerModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletDAppPeerModel.m; sourceTree = "<group>"; };
-		8CFD3CE2AF14ED25295F883BD5B6D676 /* sha2.c */ = {isa = PBXFileReference; includeInIndex = 1; path = sha2.c; sourceTree = "<group>"; };
+		8CFD3CE2AF14ED25295F883BD5B6D676 /* sha2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
 		8D5306C8B994F8DE45BA88FEAA5FCA9E /* WalletDAppTransferDetailApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletDAppTransferDetailApi.h; sourceTree = "<group>"; };
 		8DB7D56A3E1B538A8169A02D8B0B0EAF /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		92C73E3E86AE0C5B8EF07E9FCC338738 /* sha2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sha2.h; sourceTree = "<group>"; };
@@ -483,12 +484,13 @@
 		9535147675368E59997FE3EC48F6BCF0 /* WalletVersionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletVersionModel.m; sourceTree = "<group>"; };
 		95D1E1189CED51257463AA6FB1CB5876 /* WalletTransantionsReceiptModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletTransantionsReceiptModel.m; sourceTree = "<group>"; };
 		9668D6783C56B9ECB5CE0C843452610C /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
-		96F95356788DB9C3AE5BEBC73996A236 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; path = hmac.c; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96F95356788DB9C3AE5BEBC73996A236 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		972991DF22EB4B950032BBF6 /* WalletHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletHeader.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E6850513CBDB8B386170E467F0D0995 /* WalletDAppInjectJSHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletDAppInjectJSHandle.h; sourceTree = "<group>"; };
 		A03354A91E49EBD4365AAD2A5026D175 /* WalletBlockInfoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletBlockInfoModel.m; sourceTree = "<group>"; };
 		A1CEFCEEBCB1F311B1135E98944719D6 /* YYModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYModel-Info.plist"; sourceTree = "<group>"; };
-		A2B6814FF61A8C97D79C887B4FDC8F6D /* crypto_scrypt-nosse.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "crypto_scrypt-nosse.c"; sourceTree = "<group>"; };
+		A2B6814FF61A8C97D79C887B4FDC8F6D /* crypto_scrypt-nosse.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = "crypto_scrypt-nosse.c"; sourceTree = "<group>"; };
 		A312C68C3D7B262A4E4440EA70E1480B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		A4A910809C887A55405A2065BB14A2F0 /* NSJSONSerialization+NilDataParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+NilDataParameter.h"; sourceTree = "<group>"; };
 		A4C40D133C3F319FBFE123952439DDD0 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
@@ -498,7 +500,7 @@
 		A66E52D026C47744087D493813338B36 /* SecureData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SecureData.m; sourceTree = "<group>"; };
 		A6A0F0DD1C3736E6C82C53F017ECFEB4 /* WalletSDKMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletSDKMacro.h; sourceTree = "<group>"; };
 		A81E212F5D671A33F41747A9F28CCF25 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
-		A87603DB786B57A3D5E8266D3ECCF778 /* ThorWalletSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ThorWalletSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A87603DB786B57A3D5E8266D3ECCF778 /* ThorWalletSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ThorWalletSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9FBC215E025F40EAEEA581F5C0E54D6 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
 		ABB93787FF106FFCAB072A492354903E /* WalletSendTranfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WalletSendTranfer.h; path = ThorWalletSDK/Classes/BasicWallet/WalletSendTranfer.h; sourceTree = "<group>"; };
 		ACC6ECBF5CFDF3CCDCD8F6319A7E88D9 /* Payment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Payment.h; path = ThorWalletSDK/Classes/BasicWallet/Payment.h; sourceTree = "<group>"; };
@@ -507,7 +509,7 @@
 		B32B0A5DBCDEE4987C93AE04B6ECB427 /* WalletDAppInjectJSHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletDAppInjectJSHandle.m; sourceTree = "<group>"; };
 		B495BAABCF08BBAAE0F62869529F2267 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		B544A22E6CFD9492B9AD1FD01209292C /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		B729E6C66BECA185D76644317FE07EF6 /* blake2bp-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "blake2bp-ref.c"; sourceTree = "<group>"; };
+		B729E6C66BECA185D76644317FE07EF6 /* blake2bp-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = "blake2bp-ref.c"; sourceTree = "<group>"; };
 		B77C8EC23DA3D9781284838586C14DFD /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		B81029A13E74A10CCCCB7746931A79DA /* WalletAccountModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletAccountModel.h; sourceTree = "<group>"; };
 		B84808B9C026C1BE1D9A49129B522D7D /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
@@ -521,13 +523,13 @@
 		BE9BE359FBE5FA15578AD46C695BD05C /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		BEE1CC1F1824A61CC550C9D8C22A92CC /* Pods-ThorWalletSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThorWalletSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BEFA366C1CCF5C1529DC18C79753B73D /* aestab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
-		C15D097441F953F4610B254EA8327F37 /* bignum.c */ = {isa = PBXFileReference; includeInIndex = 1; path = bignum.c; sourceTree = "<group>"; };
+		C15D097441F953F4610B254EA8327F37 /* bignum.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = bignum.c; sourceTree = "<group>"; };
 		C1B4992B5E534B91572F7EC81C979F9F /* WalletGetStorageApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletGetStorageApi.h; sourceTree = "<group>"; };
 		C55D48BA1D7B089DB67C51776506BD9E /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		C5E39145A44BD5CB2A2315285B0D2D18 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
 		C651653E326CAD733EAA4CB682E2C40A /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		C89F374BAA875329C9225699C870D985 /* curves.c */ = {isa = PBXFileReference; includeInIndex = 1; path = curves.c; sourceTree = "<group>"; };
-		C8C69635FEE3D337C253CDB62CE1A5C1 /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; path = aeskey.c; sourceTree = "<group>"; };
+		C89F374BAA875329C9225699C870D985 /* curves.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = curves.c; sourceTree = "<group>"; };
+		C8C69635FEE3D337C253CDB62CE1A5C1 /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
 		C95528A9FE316247ABBADB28605514EA /* WalletSendTranfer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WalletSendTranfer.m; path = ThorWalletSDK/Classes/BasicWallet/WalletSendTranfer.m; sourceTree = "<group>"; };
 		CAD1E2F07975C349ADC3DDA6D7F25EF6 /* WalletVETBalanceApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletVETBalanceApi.m; sourceTree = "<group>"; };
 		CB7A42600FE3732BEF870CD681F40F67 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
@@ -535,18 +537,18 @@
 		CC7D9654BE03D04A2B82E23224DA4976 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		CD4A0FC4CB827DE27CEF95D2A3D9D740 /* bip39.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bip39.h; sourceTree = "<group>"; };
 		CD6456471629FC69C66CA616DB62B0A6 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
-		CD6C32D78900080BB9718827EC943A4A /* blake2sp-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "blake2sp-ref.c"; sourceTree = "<group>"; };
+		CD6C32D78900080BB9718827EC943A4A /* blake2sp-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = "blake2sp-ref.c"; sourceTree = "<group>"; };
 		CE1A0A08EA28E6029B05D1F6DBBA76C9 /* tommath_class.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tommath_class.h; sourceTree = "<group>"; };
 		CF743B40DAD8A351EDBCAD3AE0F7D8F3 /* NSMutableDictionary+Helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Helpers.h"; sourceTree = "<group>"; };
 		CFEDB2FCBEF4418697109F6837D5BA90 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		D03E537CE6A088F3F4323EB0D794811D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		D042599E9B77003B29123DFBF832C8A2 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
-		D1D799E1B116E380B38DA8F9FF6CAA06 /* mpi.c */ = {isa = PBXFileReference; includeInIndex = 1; path = mpi.c; sourceTree = "<group>"; };
+		D1D799E1B116E380B38DA8F9FF6CAA06 /* mpi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = mpi.c; sourceTree = "<group>"; };
 		D3825F098F83E33FBB8296BE8B9D225D /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		D42461C6BE524E9CE446475BFDDCD860 /* bip32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bip32.h; sourceTree = "<group>"; };
 		D6703B941C047E30A04887EF2748A428 /* macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
 		D6C5E74A8383EEC1418FE276AB643E9D /* NSMutableDictionary+Helpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Helpers.m"; sourceTree = "<group>"; };
-		D7E8156AFF81C63641B64D6CB0773D50 /* ThorWalletSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThorWalletSDK.framework; path = ThorWalletSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E8156AFF81C63641B64D6CB0773D50 /* ThorWalletSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThorWalletSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8346260045A16D3C3538A8481C39DF8 /* WalletTransantionsReceiptApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletTransantionsReceiptApi.m; sourceTree = "<group>"; };
 		D8439C0BCDEE94EFCA571498343EBA59 /* WalletDappSimulateAccountApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletDappSimulateAccountApi.m; sourceTree = "<group>"; };
 		D874B4382C89420BA81AB5F1FEC11740 /* Transaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = ThorWalletSDK/Classes/BasicWallet/Transaction.h; sourceTree = "<group>"; };
@@ -568,24 +570,24 @@
 		E8BB578C37E3D33D1252D4BE87359EF6 /* NSObject+LKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LKModel.m"; sourceTree = "<group>"; };
 		EA82CA47C04F71EE429293E86F65CADE /* WalletDAppGasCalculateHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletDAppGasCalculateHandle.m; sourceTree = "<group>"; };
 		EBF92ACCB79D3D1B1969A6B5BFB4E949 /* WalletModelFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletModelFetcher.h; sourceTree = "<group>"; };
-		ECA3F0F2F07D7B4C5D27AAF3028BF40B /* blake2xs-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "blake2xs-ref.c"; sourceTree = "<group>"; };
+		ECA3F0F2F07D7B4C5D27AAF3028BF40B /* blake2xs-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = "blake2xs-ref.c"; sourceTree = "<group>"; };
 		EDA45886D1238FA8CC6A869DFC5BC2BB /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
 		EE3CC0620FC8BBFF934F631B15F4C7B3 /* ThorWalletSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThorWalletSDK-dummy.m"; sourceTree = "<group>"; };
 		EEA7BB4C96C3A456F88D7CD2F75F228E /* NSObject+LKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+LKModel.h"; sourceTree = "<group>"; };
-		F0D3A2365B73F9510639502E4C1863A1 /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; path = aestab.c; sourceTree = "<group>"; };
+		F0D3A2365B73F9510639502E4C1863A1 /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
 		F2CF1140C51EF28030D59C5473E2E79D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		F2F28E1347C26853B934F077013C05BE /* WalletBaseApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletBaseApi.m; sourceTree = "<group>"; };
 		F323D1E12D238174EB6DBE96756367A2 /* Pods-ThorWalletSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThorWalletSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F388B865BA1C9D6F355519F726754DF2 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		F39FABB7EF944A95671E56A9C915AA90 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
 		F45D1843518B3DB03AAD12CB11DA6489 /* WalletBestBlockInfoApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletBestBlockInfoApi.h; sourceTree = "<group>"; };
-		F6C71F9CFB6BA038A6981C690F4F8339 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F6C71F9CFB6BA038A6981C690F4F8339 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F787AB2320A4218F963FCD7AA2B52CDB /* ThorWalletSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThorWalletSDK-umbrella.h"; sourceTree = "<group>"; };
 		F7D3EE8C693A8289E4350D7B591AA569 /* WalletJSCallbackModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletJSCallbackModel.h; sourceTree = "<group>"; };
 		F7D87B8FAFDBAD9FB9F64EDA1FE2BE46 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		FB1E9C9434C90CB0F110AC9A45DD9902 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		FB60A2278820DCC207C77DACBBD3D3CE /* WalletTransactionApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletTransactionApi.m; sourceTree = "<group>"; };
-		FC06114AACBEF29DBA9D33F34C1C281D /* blake2b-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "blake2b-ref.c"; sourceTree = "<group>"; };
+		FC06114AACBEF29DBA9D33F34C1C281D /* blake2b-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = "blake2b-ref.c"; sourceTree = "<group>"; };
 		FC3145C58B941808DCF107DCE67397D1 /* WalletGenesisBlockInfoApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletGenesisBlockInfoApi.h; sourceTree = "<group>"; };
 		FD4AEAE382B05295B85B09683E91DD6C /* WalletTransantionsReceiptModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletTransantionsReceiptModel.h; sourceTree = "<group>"; };
 		FE1F1E1773DDE17FF278C55A93A03304 /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
@@ -814,7 +816,6 @@
 				EBF92ACCB79D3D1B1969A6B5BFB4E949 /* WalletModelFetcher.h */,
 				0B4CE07FEF0B1D5F25ADEDB6CF9D7483 /* WalletModelFetcher.m */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -910,6 +911,7 @@
 		678AD303D33B08FC3C8988D00DE64CB6 /* Api */ = {
 			isa = PBXGroup;
 			children = (
+				972991DF22EB4B950032BBF6 /* WalletHeader.h */,
 				28212896DDC57FDAC3DA1B32E617386F /* WalletAccountCodeApi.h */,
 				4DC1AA34C89ABD7837E8E3AAB22E2AFF /* WalletAccountCodeApi.m */,
 				F45D1843518B3DB03AAD12CB11DA6489 /* WalletBestBlockInfoApi.h */,
@@ -983,7 +985,6 @@
 				A81E212F5D671A33F41747A9F28CCF25 /* YYModel.h */,
 				FD9DE7C1C5F95238647B5196F8A99E61 /* Support Files */,
 			);
-			name = YYModel;
 			path = YYModel;
 			sourceTree = "<group>";
 		};
@@ -1028,7 +1029,6 @@
 				AFE011190B878834ED49731FE7ED89FE /* MBProgressHUD.m */,
 				A6802491326785D5FE5134258CFBF180 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -1122,7 +1122,6 @@
 				F3E5B083361157C77D7FB6739C516617 /* Support Files */,
 				03B395810ABE94408AC4CAE30C4A27CB /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -1257,7 +1256,6 @@
 				68D5CB9279659AD1CE158B56FBA59A40 /* SRWebSocket.m */,
 				F261F5D5EC2BCFCE94393380AD4A7CE1 /* Support Files */,
 			);
-			name = SocketRocket;
 			path = SocketRocket;
 			sourceTree = "<group>";
 		};
@@ -1308,6 +1306,7 @@
 				B4D91D1BD4D345ACCA8A68574A51402A /* AFNetworkActivityIndicatorManager.h in Headers */,
 				E9F1C3AE93A968E328E7FDDB1E16D9A3 /* AFNetworking-umbrella.h in Headers */,
 				394922DA356F67BB8E9F59DBA22788B0 /* AFNetworking.h in Headers */,
+				972991E022EB4B950032BBF6 /* WalletHeader.h in Headers */,
 				23BAE704D80EB1EB00E8AD2B7284BFF0 /* AFNetworkReachabilityManager.h in Headers */,
 				C860803EFE2211C1F381F22011B20727 /* AFSecurityPolicy.h in Headers */,
 				4A1417AF315966324D24AF074B1E9D88 /* AFURLRequestSerialization.h in Headers */,
@@ -1602,6 +1601,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -1972,8 +1972,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
