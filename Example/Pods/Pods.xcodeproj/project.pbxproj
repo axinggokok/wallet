@@ -148,7 +148,7 @@
 		94792302A702E30BE1561F745910009B /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = E2EA72B97B4029B4C1916228F7DE2D34 /* hmac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95A8DAF23856F67461F4AD3E89BA3B25 /* options.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FDECD7F4C03B0754F04F3F61881230 /* options.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96EB8ECEF89CF095DFBB2114C66A0BEC /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD56749D6C2D104FCF711087AE9C49D /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		972991E022EB4B950032BBF6 /* WalletHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 972991DF22EB4B950032BBF6 /* WalletHeader.h */; };
+		972991E222EB4EAC0032BBF6 /* WalletHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 972991E122EB4EAC0032BBF6 /* WalletHeader.h */; };
 		98041D2110DB013251E6D1662D6B21D5 /* WalletTransantionsReceiptApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E9E92B8510957CCFF1EF0903A846D0 /* WalletTransantionsReceiptApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98042CF3A32239E6540ED64AC3AF8F26 /* WalletGetStorageApi.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B4992B5E534B91572F7EC81C979F9F /* WalletGetStorageApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98CFE7DDEA01A4B1657587701011D3EF /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D5CB9279659AD1CE158B56FBA59A40 /* SRWebSocket.m */; };
@@ -485,7 +485,7 @@
 		95D1E1189CED51257463AA6FB1CB5876 /* WalletTransantionsReceiptModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletTransantionsReceiptModel.m; sourceTree = "<group>"; };
 		9668D6783C56B9ECB5CE0C843452610C /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
 		96F95356788DB9C3AE5BEBC73996A236 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
-		972991DF22EB4B950032BBF6 /* WalletHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletHeader.h; sourceTree = "<group>"; };
+		972991E122EB4EAC0032BBF6 /* WalletHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletHeader.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E6850513CBDB8B386170E467F0D0995 /* WalletDAppInjectJSHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WalletDAppInjectJSHandle.h; sourceTree = "<group>"; };
 		A03354A91E49EBD4365AAD2A5026D175 /* WalletBlockInfoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WalletBlockInfoModel.m; sourceTree = "<group>"; };
@@ -811,6 +811,7 @@
 		4EC941D93AA01E23E4373436048F66E1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				972991E122EB4EAC0032BBF6 /* WalletHeader.h */,
 				DACC0033BBF7B61E6034E86F25F11BEB /* WalletBaseApi.h */,
 				F2F28E1347C26853B934F077013C05BE /* WalletBaseApi.m */,
 				EBF92ACCB79D3D1B1969A6B5BFB4E949 /* WalletModelFetcher.h */,
@@ -911,7 +912,6 @@
 		678AD303D33B08FC3C8988D00DE64CB6 /* Api */ = {
 			isa = PBXGroup;
 			children = (
-				972991DF22EB4B950032BBF6 /* WalletHeader.h */,
 				28212896DDC57FDAC3DA1B32E617386F /* WalletAccountCodeApi.h */,
 				4DC1AA34C89ABD7837E8E3AAB22E2AFF /* WalletAccountCodeApi.m */,
 				F45D1843518B3DB03AAD12CB11DA6489 /* WalletBestBlockInfoApi.h */,
@@ -1306,7 +1306,6 @@
 				B4D91D1BD4D345ACCA8A68574A51402A /* AFNetworkActivityIndicatorManager.h in Headers */,
 				E9F1C3AE93A968E328E7FDDB1E16D9A3 /* AFNetworking-umbrella.h in Headers */,
 				394922DA356F67BB8E9F59DBA22788B0 /* AFNetworking.h in Headers */,
-				972991E022EB4B950032BBF6 /* WalletHeader.h in Headers */,
 				23BAE704D80EB1EB00E8AD2B7284BFF0 /* AFNetworkReachabilityManager.h in Headers */,
 				C860803EFE2211C1F381F22011B20727 /* AFSecurityPolicy.h in Headers */,
 				4A1417AF315966324D24AF074B1E9D88 /* AFURLRequestSerialization.h in Headers */,
@@ -1318,6 +1317,7 @@
 				D127F3ECC81EB2E08CE9435AF24CCAF4 /* UIImageView+AFNetworking.h in Headers */,
 				687FD04FEAFE2C7B06220D69E626D6CE /* UIKit+AFNetworking.h in Headers */,
 				B79E6AD5BFBD3B2E9319650F5131A59C /* UIProgressView+AFNetworking.h in Headers */,
+				972991E222EB4EAC0032BBF6 /* WalletHeader.h in Headers */,
 				96EB8ECEF89CF095DFBB2114C66A0BEC /* UIRefreshControl+AFNetworking.h in Headers */,
 				03760110B091E68219A3F8F99F5D9257 /* UIWebView+AFNetworking.h in Headers */,
 			);
