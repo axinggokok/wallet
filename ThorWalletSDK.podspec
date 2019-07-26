@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'WalletSDK'
+  s.name             = 'ThorWalletSDK'
   s.version          = '1.0.0'
   s.summary          = 'Vechain wallet SDK'
 
@@ -32,23 +32,25 @@ Vechain wallet SDK provides a series of functional interface can help the iOS de
   
   s.resource = 'ThorWalletSDK/Assets/ThorWalletSDKBundle.bundle'
   
-  s.subspec 'DApp' do |ss|
-        ss.source_files = 'ThorWalletSDK/Classes/DApp/**/*.{h,m}'
-        ss.dependency  'ThorWalletSDK/BasicWallet'
+   s.subspec 'DApp' do |ss|
+       ss.source_files = 'ThorWalletSDK/Classes/DApp/**/*.{h,m}'
+       ss.dependency  'ThorWalletSDK/Common'
   end
   
+  s.subspec 'Common' do |ss|
+      ss.source_files = 'ThorWalletSDK/Classes/Common/*.{h,m,c}'
+  end
   
-   s.subspec 'BasicWallet' do |ss|
-       ss.source_files = 'ThorWalletSDK/Classes/BasicWallet/*.{h,m}','ThorWalletSDK/Classes/BasicWallet/**/*.{h,m}'
-       ss.dependency  'ThorWalletSDK/Tool'
-       ss.dependency  'ThorWalletSDK/DApp'
-      #ss.public_header_files = ''
-   end
+  s.subspec 'BasicWallet' do |ss|
+      ss.source_files = 'ThorWalletSDK/Classes/BasicWallet/*.{h,m}','ThorWalletSDK/Classes/BasicWallet/**/*.{h,m}'
+      ss.dependency  'ThorWalletSDK/Common'
+      
+  end
   
   s.subspec 'Tool' do |ss|
-      ss.source_files = 'ThorWalletSDK/Classes/Lib/**/*.{h,m,c,table}'
-      ss.dependency  'ThorWalletSDK/BasicWallet'
-      #ss.public_header_files = ''
+     ss.source_files = 'ThorWalletSDK/Classes/Tool/**/*.{h,m,c,table}'
+     ss.dependency  'ThorWalletSDK/Common'
+      
   end
 
   
